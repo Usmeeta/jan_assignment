@@ -10,3 +10,4 @@ top_repeated = word_count.most_common(3)
 print("Word Frequences:")
 for word, count in top_repeated:
     print(f"{word}: {count}")
+
