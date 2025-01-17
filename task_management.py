@@ -11,7 +11,7 @@ print(f"Subjects added: {subject}")
 subject.popleft()
 print(f"Removed one subject: {subject}")
 
-subject.rotate()
+subject.rotate(-1)
 print(f"Subjects rotated: {subject}")
 
 
